@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@zsrcom/components/*": ["./packages/components/src/*"],
+      // "@zsrcom/hooks/*": ["./packages/hooks/src/*"]
+    }
+  },
+  "include": [".dumirc.ts", "packages/**/*"],
+  "exclude": ["node_modules", "dist", "docs-dist"]
+}
