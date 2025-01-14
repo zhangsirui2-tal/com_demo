@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@babel/runtime':
+        specifier: ^7.26.0
+        version: 7.26.0
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.11
