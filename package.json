@@ -17,7 +17,7 @@
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepublishOnly": "father doctor && npm run build",
-    "publish": "pnpm changeset publish   "
+    "publish": "pnpm changeset publish"
   },
   "authors": [
     "zsr"
