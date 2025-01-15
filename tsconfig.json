@@ -17,6 +17,6 @@
       "@zsrcom/components/*": ["./packages/components/src/*"]
     }
   },
-  "include": [".dumirc.ts", "packages/**/*"],
+  "include": [".dumirc.ts", "packages/**/*", "src/**/*"],
   "exclude": ["node_modules", "dist", "docs-dist"]
 }
