@@ -16,7 +16,8 @@
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "publish": "pnpm changeset publish   "
   },
   "authors": [
     "zsr"
@@ -76,6 +77,8 @@
     "stylelint": "^14.9.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.26.0"
+    "@ant-design/compatible": "^5.1.2",
+    "@babel/runtime": "^7.26.0",
+    "antd": "^5.19.0"
   }
 }

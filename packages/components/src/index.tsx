@@ -1,5 +1,7 @@
+import { defaultTheme } from '@ant-design/compatible';
+import { Button, ConfigProvider } from 'antd';
 import type { FC, PropsWithChildren } from 'react';
-const Button: FC<PropsWithChildren<any>> = (props) => {
+const AButton: FC<PropsWithChildren<any>> = (props) => {
   const {
     children,
     className,
@@ -7,13 +9,14 @@ const Button: FC<PropsWithChildren<any>> = (props) => {
     size = 'default',
     ...resetProps
   } = props;
+  console.log('defaultTheme', defaultTheme);
+
   return (
-    <button className="sss" {...resetProps}>
-      {children}
-    </button>
+    <ConfigProvider prefixCls="ant5" theme={defaultTheme}>
+      <Button className={className} {...resetProps}>
+        {children}
+      </Button>
+    </ConfigProvider>
   );
 };
-
-Button.displayName = 'Button';
-
-export default Button;
+export default AButton;
