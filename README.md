@@ -41,3 +41,9 @@ $ pnpm run doctor
 ## LICENSE
 
 MIT
+
+生成变更日志
+pnpm changeset
+
+生成新版本
+pnpm changeset version
