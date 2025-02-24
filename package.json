@@ -77,8 +77,12 @@
     "stylelint": "^14.9.1"
   },
   "dependencies": {
-    "@ant-design/compatible": "^5.1.2",
+    "@ant-design/compatible": "v5-compatible-v4",
     "@babel/runtime": "^7.26.0",
+    "@ctrl/tinycolor": "^4.1.0",
     "antd": "^5.19.0"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
