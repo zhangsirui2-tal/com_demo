@@ -1,8 +1,4 @@
-import { defineConfig } from 'father';
+import { createBaseConfig } from '../../father.base';
+const config = createBaseConfig();
 
-export default defineConfig({
-  platform: 'browser',
-  esm: {
-    transformer: 'babel',
-  },
-});
+export default config;

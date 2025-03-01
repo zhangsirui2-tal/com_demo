@@ -13,9 +13,9 @@
   },
   "license": "MIT",
   "author": "cwj <595842570@qq.com>",
-  "main": "./dist/esm/index.js",
-  "module": "./dist/esm/index.js",
-  "typings": "./dist/esm/index.d.ts",
+  "main": ".dist/lib/index.js",
+  "module": ".dist/esm/index.js",
+  "typings": ".dist/esm/index.d.ts",
   "files": [
     "dist"
   ],
