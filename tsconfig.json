@@ -14,7 +14,9 @@
     "baseUrl": ".",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "@zsrcom/components": ["packages/components/src"]
+      "@zsrcom/components": ["packages/components/src"],
+      "@zsrcom/example-com": ["packages/example-com/src"],
+      "@zsrcom/antd-v5": ["packages/antd-v5/src"],
     }
   },
   "include": [".dumirc.ts", "packages/**/*", "src/**/*"],

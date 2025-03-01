@@ -17,11 +17,13 @@ export default defineConfig({
     atomDirs: [
       { type: 'components', dir: 'packages/components/src' },
       { type: 'example-com', dir: 'packages/example-com/src' },
+      { type: 'example-com', dir: 'packages/antd-v5/src' },
     ],
   },
   alias: {
     '@zsrcom/components': path.resolve(__dirname, 'packages/components/src'),
     '@zsrcom/example-com': path.resolve(__dirname, 'packages/example-com/src'),
+    '@zsrcom/antd-v5': path.resolve(__dirname, 'packages/antd-v5/src'),
   },
   monorepoRedirect: {
     peerDeps: true,

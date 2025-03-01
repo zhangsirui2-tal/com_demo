@@ -12,7 +12,7 @@ const AButtonExample: FC<any> = (props) => {
   return (
     <>
       {' '}
-      <AButton children="点击" />
+      <AButton children="点击qq" className="sadsad" />
     </>
   );
 };

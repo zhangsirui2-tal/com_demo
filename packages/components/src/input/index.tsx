@@ -1,7 +1,6 @@
 // import { defaultTheme } from '@ant-design/compatible';
-import { Button, ConfigProvider } from 'antd';
+import { ConfigProvider, Input } from 'antd';
 import type { FC, PropsWithChildren } from 'react';
-import { AButton } from '../../../components/src';
 const AInput: FC<PropsWithChildren<any>> = (props) => {
   const {
     children,
@@ -14,10 +13,9 @@ const AInput: FC<PropsWithChildren<any>> = (props) => {
 
   return (
     <ConfigProvider prefixCls="ant5">
-      <Button className={className} {...resetProps}>
+      <Input className={className} {...resetProps}>
         {children}
-      </Button>
-      <AButton />
+      </Input>
     </ConfigProvider>
   );
 };

@@ -1,5 +1,5 @@
+import { AInput } from '@zsrcom/components';
 import type { FC } from 'react';
-// import AButton from '../index';
 const AButtonExample: FC<any> = (props) => {
   const {
     children,
@@ -11,8 +11,7 @@ const AButtonExample: FC<any> = (props) => {
 
   return (
     <>
-      {/* <AButton /> */}
-      <div>sss</div>
+      <AInput />
     </>
   );
 };
