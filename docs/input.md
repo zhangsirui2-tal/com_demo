@@ -1,4 +1,4 @@
----
+<!-- ---
 hero:
   title: test_demo
   desc: test_demo site example
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello test_demo!
+## Hello test_demo! -->
