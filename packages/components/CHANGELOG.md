@@ -1,5 +1,11 @@
 # @zsrcom/components
 
+## 1.0.4
+
+### Patch Changes
+
+- 打包公共配置-支持按需加载
+
 ## 1.0.3
 
 ### Patch Changes

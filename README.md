@@ -44,10 +44,27 @@ $ pnpm -F @zsrcom/components run build
 
 ## LICENSE
 
-MIT
+## 严格执行 Changesets 标准工作流程
 
-生成变更日志
+1、开发阶段：开发者实现功能或修复问题
+
+2、创建变更集：
 pnpm changeset
+创建描述变更的 .md 文件（存储在 .changeset 目录）
 
-生成新版本
+3、提交代码：提交代码和生成的 changeset 文件
+
+4、审核合并：其他开发者审核并合并变更
+
+5、版本更新：在发布前，执行：
 pnpm changeset version
+这会：
+根据变更集更新受影响包的版本号
+更新 package.json 文件
+更新依赖关系
+在 CHANGELOG.md 中添加变更记录
+移除已处理的 changeset 文件
+
+6、push 代码 发布：执行
+pnpm build
+pnpm changeset publish
