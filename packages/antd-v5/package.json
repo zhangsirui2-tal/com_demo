@@ -38,7 +38,6 @@
   "peerDependencies": {
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0"
-    // "antd": ">=5.11.5"
   },
   "publishConfig": {
     "access": "public"
