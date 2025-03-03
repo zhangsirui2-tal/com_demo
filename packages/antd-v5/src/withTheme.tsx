@@ -5,7 +5,6 @@ import React from 'react';
 
 export function withTheme<T extends React.ComponentType<any>>(Component: T): T {
   const customTheme = {
-    token: { colorPrimary: 'red' },
     ...defaultTheme,
   };
 
