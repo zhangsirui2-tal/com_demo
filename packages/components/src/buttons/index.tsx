@@ -1,5 +1,7 @@
 import { Button } from '@zsrcom/antd-v5';
 import type { FC, PropsWithChildren } from 'react';
+
+import './index.scss';
 const AButton: FC<PropsWithChildren<any>> = (props) => {
   const {
     children,
@@ -10,9 +12,11 @@ const AButton: FC<PropsWithChildren<any>> = (props) => {
   } = props;
 
   return (
-    <Button className={className} type={type} size={size} {...resetProps}>
-      {children}
-    </Button>
+    <div className="container">
+      <Button className={className} type={type} size={size} {...resetProps}>
+        {children}
+      </Button>
+    </div>
   );
 };
 export default AButton;

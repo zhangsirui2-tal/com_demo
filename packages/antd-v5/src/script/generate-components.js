@@ -5,7 +5,7 @@ const path = require('path');
 const components = [
   'Affix', 'Alert', 'Anchor', 'App', 'AutoComplete', 'Avatar',
 'BackTop', 'Badge', 'Breadcrumb', 'Button',
-'Calendar', 'Card', 'Carousel', 'Cascader', 'Checkbox', 'Col', 'Collapse', 'ColorPicker', 'ConfigProvider',
+'Calendar', 'Card', 'Carousel', 'Cascader', 'Checkbox', 'Col', 'Collapse', 'ColorPicker',
 'DatePicker', 'Descriptions', 'Divider', 'Drawer', 'Dropdown',
 'Empty',
 'Flex', 'FloatButton', 'Form',

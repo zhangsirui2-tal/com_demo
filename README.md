@@ -68,3 +68,9 @@ pnpm changeset version
 6、push 代码 发布：执行
 pnpm build
 pnpm changeset publish
+
+//按需加载，推荐配置
+["import", {
+"libraryName": "name",
+"style": true
+}]

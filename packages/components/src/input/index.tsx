@@ -1,6 +1,8 @@
 // import { defaultTheme } from '@ant-design/compatible';
 import { ConfigProvider, Input } from 'antd';
 import type { FC, PropsWithChildren } from 'react';
+
+import './index.scss';
 const AInput: FC<PropsWithChildren<any>> = (props) => {
   const {
     children,
@@ -12,11 +14,15 @@ const AInput: FC<PropsWithChildren<any>> = (props) => {
   // console.log('defaultTheme', defaultTheme);
 
   return (
-    <ConfigProvider prefixCls="ant5">
-      <Input className={className} {...resetProps}>
-        {children}
-      </Input>
-    </ConfigProvider>
+    <div className="container">
+      <div>1</div>
+      <div>2</div>
+      <ConfigProvider prefixCls="ant5">
+        <Input className={className} {...resetProps}>
+          {children}
+        </Input>
+      </ConfigProvider>
+    </div>
   );
 };
 export default AInput;

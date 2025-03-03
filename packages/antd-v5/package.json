@@ -21,17 +21,19 @@
   ],
   "sideEffects": [
     "**/*.less",
+    "**/*.scss",
     "**/*.css",
     "**/*/__builtins__/**/*"
   ],
   "scripts": {
-    "build": "father build"
+    "build": "father build && build-css"
   },
   "dependencies": {
     "styled-components": "^6.1.11"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.34"
+    "@types/styled-components": "^5.1.34",
+    "@zsrcom/common-config": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=16.9.0",

@@ -1,4 +1,4 @@
-import { createBaseConfig } from '@zsrcom/common-config';
+import { createBaseConfig } from './src/father.base';
 const config = createBaseConfig();
 
 export default config;
