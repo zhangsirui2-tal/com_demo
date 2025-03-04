@@ -1,4 +1,4 @@
-import { Button } from '@zsrcom/antd-v5';
+import { Button } from 'antd-v5';
 import type { FC, PropsWithChildren } from 'react';
 
 import './index.scss';
